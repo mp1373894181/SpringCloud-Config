@@ -5,12 +5,12 @@
 
 ---
 spring:
- profile: dev
+ profile: dev	#开发环境
  application:
   name: SpringCloud-ConfigServer-dev
 
 ---
 spring:
- profile: test
+ profile: test	#测试环境
  application:
   name: SpringCloud-ConfigServer-test
